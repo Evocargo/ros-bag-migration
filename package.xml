@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>bag_migration</name>
+  <version>1.0.0</version>
+  <description>The bag_migration package to migrate ROS bag message and topics from different message type or namspaces</description>
+  <maintainer email="vladimir.burmistrov@evocargo.com">Burmistrov Vladimir</maintainer>
+  <license>Copyright (c) Evocargo LLC, all rights reserved.</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>rosbag</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+
+  <exec_depend>rosbag</exec_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+</package>
